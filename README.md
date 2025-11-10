@@ -4,7 +4,7 @@ In this repository you can find the implementations of 2 Meta Learning algorithm
 - Standard Model-Agnostic Meta-Learning [(MAML)](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://arxiv.org/abs/1703.03400&ved=2ahUKEwjI_afgruiQAxXbGxAIHSaBNvMQFnoECBoQAQ&usg=AOvVaw3r3ZhC-vf1gt9e7gyFUG0W) algorithm;
 - Frozen Evo-MAML algorithm: improvement of the original MAML with the use of layer freezing and Evolutionary Techniques. 
 
-Detailed description of Frozen Evo-MAML can be found [here]() PUT THE LINK.
+Detailed description of Frozen Evo-MAML can be found [here](https://drive.google.com/file/d/1Q_3dSOD2XRnToLJeNT80pbpRErm1MVMT/view?usp=sharing).
 
 ## Repository structure
 
@@ -48,7 +48,7 @@ train_settings = {
         "outer_lr": 0.001,
         "num_episodes": 15,
         "eval_fr": 3,
-        "algorithm_type": "maml",
+        "algorithm_type": "frozen-evo-maml",
     },
 }
 
