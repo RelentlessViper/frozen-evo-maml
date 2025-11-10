@@ -1,7 +1,7 @@
 ## Frozen Evo-MAML
 
 In this repository you can find the implementations of 2 Meta Learning algorithms tuned for Meta Reinforcement Learning (Meta LR):
-- Standard Model-Agnostic Meta-Learning (MAML) algorithm;
+- Standard Model-Agnostic Meta-Learning [(MAML)](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://arxiv.org/abs/1703.03400&ved=2ahUKEwjI_afgruiQAxXbGxAIHSaBNvMQFnoECBoQAQ&usg=AOvVaw3r3ZhC-vf1gt9e7gyFUG0W) algorithm;
 - Frozen Evo-MAML algorithm: improvement of the original MAML with the use of layer freezing and Evolutionary Techniques. 
 
 Detailed description of Frozen Evo-MAML can be found [here]() PUT THE LINK.
@@ -9,14 +9,14 @@ Detailed description of Frozen Evo-MAML can be found [here]() PUT THE LINK.
 ## Repository structure
 
 The repository contains 2 main folders:
-- `maml` contains the core implementations of MAML and Frozen Evo-MAML as well as task distribution based on [CartPole]() PUT THE LINK and basic training and logging functions.
-- `notebooks` contains an example of training the classic MAML algorithm (Frozen Evo-MAML can be trained in the same way).
+- [`maml`](https://github.com/RelentlessViper/frozen-evo-maml/tree/main/maml) contains the core implementations of MAML and Frozen Evo-MAML as well as task distribution based on [CartPole](https://gymnasium.farama.org/environments/classic_control/cart_pole/) and basic training and logging functions.
+- [`notebooks`](https://github.com/RelentlessViper/frozen-evo-maml/tree/main/notebooks) contains an example of training the classic MAML algorithm (Frozen Evo-MAML can be trained in the same way).
 
 ## Installation
 
 ```bash
-git clone [your-repo-url]
-cd [your-repo-name]
+git clone https://github.com/RelentlessViper/frozen-evo-maml.git
+cd frozen-evo-maml
 pip install -r requirements.txt
 ```
 
