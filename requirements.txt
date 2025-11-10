@@ -1,0 +1,10 @@
+# Core ML/DL
+torch==2.7.1
+numpy==2.2.5
+scipy==1.15.3
+pandas>=2.2.3
+
+# Reinforcement Learning
+gymnasium==1.2.0
+
+ipykernel>=6.29.5
